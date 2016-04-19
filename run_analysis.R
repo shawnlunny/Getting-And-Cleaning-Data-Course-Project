@@ -72,5 +72,5 @@ averages_dataset <- ddply(all_datasets, .(activity, subject), mean = mean(all_da
 #lets do some more memory cleanup
 rm(features, activity_labels, mean_and_std_cols, x_dataset, y_dataset, subject_dataset, directory)
 
-#since all the other files are txt extensions lets save our results to a text file instead of a csv
-write.table(averages_dataset, paste(assignment, "averages_dataset.txt", sep="/"))
+#save the results to a txt file
+write.table(averages_dataset, paste(assignment, "averages_dataset.txt", sep="/"), row.name = FALSE)
