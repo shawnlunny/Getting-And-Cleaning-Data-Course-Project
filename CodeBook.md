@@ -1,6 +1,6 @@
 <h1>Getting And Cleaning Data Course Project CodeBook</h1>
 
-<p>Source data and initial codebook infomration can be found at: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones</p>
+<p>Source data and initial codebook information can be found at: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones</p>
 
 <h2>Analysis Steps</h2>
 <p>The run_analysis.R file merges several files in the source data, renames some variables to make them more human readable, and then makes a tidy data set and saves it to file.</p>
