@@ -24,3 +24,4 @@
 <li>We then create an independent tidy data set with the average of each variable for each activity and each subject.</li>
 </ol>
 <p>Each line in run_analysis.R is commented. Reference the file for more information on the logic chosen to tidy the data.</p>
+<p>Additional information about the original dataset can be found in its README.txt file</p>
