@@ -54,6 +54,8 @@ x_dataset <- x_dataset[, mean_and_std_cols]
 #name each column in the x_dataset using the mean and std column names but remove 
 #the () to make the column names more readable
 names(x_dataset) <- gsub("()", "", features[mean_and_std_cols, 2], fixed = TRUE)
+#remove redundent Body text from column names to make more readable
+names(x_dataset) <- gsub("BodyBody", "Body", colnames(x_dataset), fixed = TRUE)
 
 #do the same to the dataset labels
 y_dataset <- y_dataset[, 1]
