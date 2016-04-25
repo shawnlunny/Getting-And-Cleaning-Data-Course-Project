@@ -20,7 +20,7 @@
 </ul>
 <li>We then isolate and extract only the measurements on the mean and standard deviation for each measurement and exclude the other measurements.
 <li>We name the dataset variables based on the variable names in features.txt and apply it to our merged dataframe.</li>
-<li>We then rename the variables to make them more human readable and descriptive by removing the <code>()</code> from the column names.</li>
+<li>We then rename the variables to make them more human readable and descriptive by removing the <code>()</code> from the column name and reduce any double text names such as <code>BodyBody</code> to <code>Body</code>.</li>
 <li>We then create an independent tidy data set with the average of each variable for each activity and each subject.</li>
 <li>Our full set of variables as renamed and in the averages_dataset.txt are:</li>
 <ul>
