@@ -6,7 +6,7 @@
 <p>The run_analysis.R file merges several files in the source data, renames some variables to make them more human readable, and then makes a tidy data set and saves it to file.</p>
 
 <ol>
-<li>First the source code zip file is downloaded to the local directory, unzipped, and then each data set is read into a dataframe.</li>
+<li>First the source code zip file is downloaded to the local directory as Smartphone_Dataset.zip, unzipped, and then each data set is read into a dataframe.</li>
 <li>Next the source txt files are read in and merged. The files are:</li>
 <ul>
 <li>activity_labels.txt - Links the class labels with their activity name.</li>
